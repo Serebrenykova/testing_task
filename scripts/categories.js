@@ -1,5 +1,5 @@
 function showHideDescription(){
-	$(".details__info").slideToggle();
+	$(this).closest(".details").find(".description__data").slideToggle();
 	console.log("ok");
 }
 
