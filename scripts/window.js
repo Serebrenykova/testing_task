@@ -1,6 +1,3 @@
-/*
-presence__link
-*/
 function showWindow(event){
 	event.preventDefault();
 	$(".container__window").show();
